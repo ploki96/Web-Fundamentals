@@ -1,0 +1,21 @@
+h1{
+color:aqua;
+background-color: black;
+font-size: 120;
+}
+
+#projects{
+    font-style: italic;
+    background-color: blueviolet;
+    text-align: center;
+    color: white;
+    font-size: 80;
+}
+
+#contact{
+    text-align: right;
+    background-color: aquamarine;
+    text-decoration: underline;
+    color: purple;
+    font-size: 60;
+}
