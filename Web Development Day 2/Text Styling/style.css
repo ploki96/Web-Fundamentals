@@ -4,7 +4,7 @@ background-color: black;
 font-size: 120;
 }
 
-#projects{
+h2{
     font-style: italic;
     background-color: blueviolet;
     text-align: center;
@@ -12,7 +12,7 @@ font-size: 120;
     font-size: 80;
 }
 
-#contact{
+h3{
     text-align: right;
     background-color: aquamarine;
     text-decoration: underline;
