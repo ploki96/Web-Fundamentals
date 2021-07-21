@@ -13,6 +13,11 @@ nav{
     align-items: center;
 }
 
+nav > h1{
+    font-size:30pt;
+    padding:20px;
+}
+
 .box{
 display: flex;
 justify-content: space-evenly;
