@@ -1,0 +1,28 @@
+*{
+    color: white;
+}
+
+.row{
+    display: flex;
+}
+
+.col{
+    background-color:green;
+    padding:5px;
+    margin:5px;
+    flex: 1;
+}
+
+.col-2{
+    background-color:green;
+    padding:5px;
+    margin:5px;
+    flex: 2;
+}
+
+.col-3{
+    background-color:green;
+    padding:5px;
+    margin:5px;
+    flex: 3;
+}
