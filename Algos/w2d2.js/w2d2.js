@@ -30,6 +30,7 @@ var pokémon = [
     { "id": 148, "name": "Dragonair",  "types": ["dragon"] }
 ];
 
+
 // 1. console.log the pokémon objects whose id is evenly divisible by 3
 // 2. console.log the pokémon objects that have more than one type
 // 3. console.log the names of the pokémon whose only type is "poison"
@@ -37,45 +38,46 @@ var pokémon = [
 // Bonus Challenge: console.log the reverse of the names of the pokémon whose only type is "poison"
 
 // 1. 
-// for(var i = 0; i < pokémon.length; i++) {
-//     if (pokémon[i].id % 3 == 0)
-//     {
-//         console.log(pokémon[i]);
-//     }
-// }
+for(var i = 0; i < pokémon.length; i++) {
+    if (pokémon[i].id % 3 == 0)
+    {
+        console.log(pokémon[i]);
+    }
+}
 
-// // 2. 
-// for(var i=0;i<pokémon.length;i++) {
-//     if (pokémon[i].types.length > 1)
-//     {
-//         console.log(pokémon[i]);
-//     }
-// }
+// 2. 
+for(var i=0;i<pokémon.length;i++) {
+    if (pokémon[i].types.length > 1)
+    {
+        console.log(pokémon[i]);
+    }
+}
 
-// // 3. 
-// for(var i=0;i<pokémon.length;i++) {
-//     if (pokémon[i].types[0] == "poison" && pokémon[i].types.length == 1)
-//     {
-//         console.log(pokémon[i].name);
-//     }
-// }
+// 3. 
+for(var i=0;i<pokémon.length;i++) {
+    if (pokémon[i].types[0] == "poison" && pokémon[i].types.length == 1)
+    {
+        console.log(pokémon[i].name);
+    }
+}
 
 
-// // 4. 
-// for(var i=0;i<pokémon.length;i++) {
-//     if (pokémon[i].types[1] == "flying")
-//     {
-//         console.log(pokémon[i].types[0]);
-//     }
-// }
+// 4. 
+for(var i=0;i<pokémon.length;i++) {
+    if (pokémon[i].types[1] == "flying")
+    {
+        console.log(pokémon[i].types[0]);
+    }
+}
 
 // Bonus
 tempname = "";
 for(var i=0;i<pokémon.length;i++) {
     if (pokémon[i].types[0] == "poison" && pokémon[i].types.length == 1) {
         for (var j = (pokémon[i].name.length - 1);j>=0;j--) {
-            tempname[(pokémon[i].name.length - 1) - j] += pokémon[i].name[j];
+            tempname += pokémon[i].name[j];
         }
         console.log(tempname);
+        tempname = "";
     }
 }
