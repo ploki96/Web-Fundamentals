@@ -20,3 +20,10 @@ console.log (pizza1);
 var pizza2 = pizzaFactory("hand tossed", "marinara", ["mozzarella", "feta"], ["mushrooms", "olives", "onions"]);
 
 console.log(pizza2);
+
+// Create 2 more pizzas with any toppings we like!
+
+var pizza3 = pizzaFactory("thin crust", "marinara", ["mozzarella", "feta", "goat"], ["ham", "mushrooms", "pepperoni"]);
+
+var pizza4 = pizzaFactory("hand tossed", "ranch", ["mozzarella", "feta"], ["olives", "chicken", "onions"]);
+
